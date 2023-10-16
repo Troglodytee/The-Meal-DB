@@ -1,0 +1,16 @@
+.bg-light {background-color: var(--light);}
+.bg-lightgrey {background-color: var(--lightgrey);}
+.bg-dark {background-color: var(--dark);}
+
+.txt-light {color: var(--light);}
+.txt-primary {color: var(--primary);}
+.txt-danger {color: var(--danger);}
+
+.button-primary {
+    border-color: var(--primary);
+    background-color: var(--primary);
+}
+.button-danger {
+    border-color: var(--danger);
+    background-color: var(--danger);
+}

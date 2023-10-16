@@ -1,0 +1,20 @@
+:root {
+    --sp-xs: 5px;
+    --sp-sm: 10px;
+    --sp-md: 30px;
+    --sp-lg: 80px;
+    --sp-xl: 100px;
+
+    --fs-xs: 18px;
+    --fs-sm: 22px;
+    --fs-md: 28px;
+    --fs-lg: 42px;
+    --fs-xl: 56px;
+
+    --light:     white;
+    --lightgrey: #eeeeee;
+    --grey:      #cccccc;
+    --dark:      black;
+    --primary:   rgb(0, 120, 218);
+    --danger:    rgb(204, 4, 4);
+}

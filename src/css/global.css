@@ -1,0 +1,139 @@
+html, body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    padding: var(--sp-md);
+    background-color: var(--dark);
+}
+
+header {
+    justify-content: space-between;
+    font-size: var(--fs-md);
+}
+
+header img {
+    height: 50px;
+}
+
+header a {
+    color: var(--light);
+}
+
+nav {
+    gap: var(--sp-md);
+}
+
+main {
+    min-height: 100vh;
+}
+
+main a {
+    color: var(--dark);
+}
+
+section {
+    padding: var(--sp-lg) var(--sp-xl);
+}
+
+h1 {
+    margin-bottom: var(--sp-lg);
+    font-size: var(--fs-xl);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: var(--sp-md);
+    font-size: var(--fs-lg);
+}
+
+p {
+    font-size: var(--fs-sm);
+    line-height: 1.25;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    margin: auto;
+    max-width: 700px;
+}
+
+fieldset {
+    padding: var(--sp-md);
+    border-radius: var(--sp-md);
+}
+
+legend {
+    padding: 0 var(--sp-sm);
+}
+
+legend, label {
+    font-size: var(--sp-md);
+}
+
+input:not(input[type="submit"]), select, textarea {
+    margin: var(--sp-sm) 0 var(--sp-md) 0;
+}
+
+input {
+    outline: 0;
+}
+
+input, select, textarea, .button {
+    border: 1px solid var(--dark);
+    border-radius: var(--sp-xs);
+    padding: var(--sp-sm);
+    font-size: var(--fs-sm);
+}
+
+.button {
+    display: block;
+    padding-left: var(--sp-md);
+    padding-right: var(--sp-md);
+}
+
+input[type="submit"], .button {
+    width: max-content;
+    cursor: pointer;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+input[type="submit"]:disabled, .button:disabled {
+    cursor: default;
+    border-color: var(--grey);
+    background-color: var(--grey);
+}
+
+th, td {
+    padding: var(--sp-xs) var(--sp-md);
+    text-align: center;
+}
+
+th {
+    font-size: var(--fs-md);
+}
+
+td {
+    font-size: var(--fs-sm);
+}
+
+td input {
+    margin: 0!important;
+}
+
+thead > tr {
+    background-color: var(--grey);
+}
+
+main > section > .button {
+    margin-bottom: var(--sp-lg);
+}
+
+main > section > .button.button-danger {
+    align-self: end;
+}
